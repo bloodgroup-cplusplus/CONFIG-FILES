@@ -2,13 +2,9 @@ syntax on
 
 set noerrorbells
 
-
 set tabstop =4 softtabstop=4
-
 set shiftwidth=4
-
-set expandtab 
-
+set expandtab
 set smartindent
 set nu
 set nowrap
@@ -25,9 +21,15 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 call plug#begin('~/.vim/plugged')
 "Plug 'xuhdev/vim-latex-live-preview'
 Plug 'neoclide/coc.nvim',{'branch':'release'}
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'rhysd/vim-clang-format'
+Plug 'tpope/vim-dispatch'
 Plug 'lervag/vimtex'
+Plug 'ThePrimeagen/git-worktree.nvim'
 Plug 'Valloric/YouCompleteMe'
-Plug 'morhetz/gruvbox'
+"Plug 'morhetz/gruvbox'
+Plug 'dracula/vim', {'as': 'dracula'}
+Plug 'puremourning/vimspector'
 Plug 'airblade/vim-gitgutter'
 Plug 'jremmen/vim-ripgrep'
 Plug 'tpope/vim-fugitive'
@@ -39,6 +41,7 @@ Plug 'preservim/NERDTree'
 Plug 'tomlion/vim-solidity'
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdcommenter'
+Plug 'janko/vim-test'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'airblade/vim-gitgutter'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -49,12 +52,10 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'airblade/vim-gitgutter'
 Plug 'ctrlpvim/ctrlp.vim' " fuzzy find files
 Plug 'scrooloose/nerdcommenter'
-Plug 'janko/vim-test'
-
-Plug 'puremourning/vimspector'
 "Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
+Plug 'ThePrimeagen/git-worktree.nvim'
 
 call plug#end()
 
