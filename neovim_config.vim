@@ -12,48 +12,15 @@ call plug#begin()
 
 Plug 'http://github.com/tpope/vim-surround' "Surrounding ysw)
 Plug 'preservim/nerdtree'
+
+
+Plug 'ryanoasis/vim-devicons'
 Plug 'ThePrimeagen/git-worktree.nvim'
 Plug 'jackguo380/vim-lsp-cxx-highlight'
 Plug 'edluffy/hologram.nvim'
 Plug 'alepez/vim-gtest'
 Plug 'ap/vim-css-color'
 
-Plug 'rhysd/vim-clang-format'
-Plug 'tpope/vim-vinegar'
-Plug 'tpope/vim-surround'
-Plug 'vimwiki/vimwiki'
-Plug 'unblevable/quick-scope'
-Plug 'SirVer/ultisnips'
-Plug 'tpope/vim-capslock' " I can't stand toggling capslock key so often
-Plug 'junegunn/goyo.vim'
-Plug 'jayli/vim-easycomplete'
-Plug 'ferrine/md-img-paste.vim'
-Plug 'honza/vim-snippets'
-Plug 'junegunn/fzf.vim'
-Plug 'airblade/vim-rooter'
-Plug 'vim-airline/vim-airline'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-" markdown tables
-Plug 'dhruvasagar/vim-table-mode':set number
-:set relativenumber
-:set autoindent
-:set tabstop=4
-:set shiftwidth=4
-:set smarttab
-:set softtabstop=4
-:set mouse=a
-
-
-call plug#begin()
-
-Plug 'http://github.com/tpope/vim-surround' "Surrounding ysw)
-Plug 'preservim/nerdtree'
-Plug 'ThePrimeagen/git-worktree.nvim'
-Plug 'jackguo380/vim-lsp-cxx-highlight'
-Plug 'edluffy/hologram.nvim'
-Plug 'alepez/vim-gtest'
-Plug 'ap/vim-css-color'
 
 Plug 'rhysd/vim-clang-format'
 Plug 'tpope/vim-vinegar'
@@ -123,3 +90,4 @@ Plug 'Shatur/neovim-session-manager'
 
 Plug 'vim-syntastic/syntastic'
 call plug#end()
+
